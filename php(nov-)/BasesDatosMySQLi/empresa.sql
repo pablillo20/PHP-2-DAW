@@ -6,12 +6,12 @@ USE empresa;
 
 DROP TABLE IF EXISTS usuarios;
 CREATE TABLE usuarios(
-    codigo int(10) auto_increment not null,
-    nombre varchar(100) not null,
-    clave varchar(50) not null,
-    rol int(20) not null,
-    CONSTRAINT pk_usuarios PRIMARY KEY(codigo),
-    CONSTRAINT UC_nombre UNIQUE (nombre)
+                         codigo int(10) auto_increment not null,
+                         nombre varchar(100) not null,
+                         clave varchar(50) not null,
+                         rol int(20) not null,
+                         CONSTRAINT pk_usuarios PRIMARY KEY(codigo),
+                         CONSTRAINT UC_nombre UNIQUE (nombre)
 )ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_bin;
 
 INSERT INTO usuarios VALUES(null,'Maria','maria123',1);
