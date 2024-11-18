@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<viviendas>
+  <vivienda>
+    <tipo>Chalet</tipo>
+    <zona>Zaid&#xED;n</zona>
+    <direccion>Crt Priego</direccion>
+    <dormitorios>4</dormitorios>
+    <precio>25000</precio>
+    <tamano>150</tamano>
+    <observaciones>Acogedora y Elegante, muy recomendada para familia de 4 a 5 miembros</observaciones>
+    <foto>fotos/representaci&#xF3;n-d-de-una-peque&#xF1;a-casa-residencial-con-chimenea-y-un-tejado-rojo-en-fondo-blanco-104699201.png</foto>
+    <beneficio>7000</beneficio>
+  </vivienda>
+  <vivienda>
+    <tipo>Piso</tipo>
+    <zona>Centro</zona>
+    <direccion>Crt Priego</direccion>
+    <dormitorios>2</dormitorios>
+    <precio>44</precio>
+    <tamano>1231</tamano>
+    <foto>fotos/WhatsApp Image 2024-10-23 at 12.25.26.jpeg</foto>
+    <beneficio>15.4</beneficio>
+  </vivienda>
+</viviendas>
